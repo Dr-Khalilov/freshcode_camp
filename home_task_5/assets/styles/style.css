@@ -1,0 +1,43 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+body {
+    background-color: blue;
+    min-height: 300vh;
+}
+
+div {
+    text-align: center;
+    border: 2px solid;
+    width: 10%;
+    height: 20%;
+    background-color: green;
+}
+
+.left {
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+.right {
+    position: fixed;
+    top: 0;
+    left: 0;
+    ;
+}
+
+.bottom-right {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
