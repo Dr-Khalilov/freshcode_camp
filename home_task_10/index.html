@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <title>Auth</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Register</h1>
+            <p>Create your account. It's free and only takes a minute</p>
+            <form class="registrationForm" method="GET">
+                <div class="fullNameOfUser">
+                    <input
+                        autofocus
+                        type="text"
+                        placeholder="First name"
+                        name="FirstName"
+                        required
+                        />
+                    <input type="text" placeholder="Last Name" name="lastName"
+                        required />
+                </div>
+                <input
+                    class="inp"
+                    type="email"
+                    placeholder="Email"
+                    name="email"
+                    required
+                    />
+
+                <input
+                    class="inp"
+                    type="password"
+                    placeholder="Password"
+                    name="passw"
+                    required
+                    />
+
+                <input
+                    class="inp"
+                    type="password"
+                    placeholder="Confirm Password"
+                    name="passw"
+                    required
+                    />
+                <div class="checkbox">
+                    <input type="checkbox" name="checkbox" />
+                    <span>I accept the of Use & Privacy Police</span>
+                </div>
+                <input class="register" type="button" value="Register Now"
+                    name="Register" />
+            </form>
+        </div>
+    </body>
+</html>
