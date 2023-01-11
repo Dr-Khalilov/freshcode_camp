@@ -1,53 +1,62 @@
 .cards-wrapper {
-    background-color: azure;
-  }
-  .card-container {
-    --card-accent-color: #17a2b8;
-    border: 1px solid;
-    background-color: var(--card-accent-color);
-    max-width: 400px;
-    text-align: center;
-    font-family: sans-serif;
-  }
-  .card-bg {
-    height: 150px;
-  }
-  .card-content {
-    background-color: white;
-    box-sizing: border-box;
-    padding: 20px;
-    padding-top: 0;
-  }
-  .photo-wrapper {
-    background-color: transparent;
-  }
-  .card-photo {
-    --card-size: 140px;
-    width: var(--card-size);
-    height: var(--card-size);
-    border: 5px solid white;
-    margin-top: calc(var(--card-size) / 2 * -1);
-    margin-bottom: 15px;
-    object-fit: cover;
-    border-radius: 50%;
-  }
-  .btn-container {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    padding: 15px 0;
-    margin: 15px 0;
-  }
-  .card-btn {
-    padding: 8px 12px;
-    background-color: var(--card-accent-color);
-    border: none;
-    color: white;
-    border-radius: 6px;
-    text-transform: capitalize;
-  }
-  .contacts-container {
-    padding: 10px 0;
-  }
-  .contact {
-    margin: 0px 5 px;
-  }
+  background-color: azure;
+}
+
+.card-container {
+  --card-accent-color: #17a2b8;
+  border: 1px solid;
+  background-color: var(--card-accent-color);
+  max-width: 400px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card-bg {
+  height: 150px;
+}
+
+.card-content {
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  padding-top: 0;
+}
+
+.photo-wrapper {
+  background-color: transparent;
+}
+
+.card-photo {
+  --card-size: 140px;
+  width: var(--card-size);
+  height: var(--card-size);
+  border: 5px solid white;
+  margin-top: calc(var(--card-size) / 2 * -1);
+  margin-bottom: 15px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.btn-container {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  padding: 15px 0;
+  margin: 15px 0;
+}
+
+.card-btn {
+  padding: 8px 12px;
+  background-color: var(--card-accent-color);
+  border: none;
+  color: white;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+
+.contacts-container {
+  padding: 10px 0;
+}
+
+.contact {
+  margin: 0px 5 px;
+}
