@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --colorPrimary: #47986d;
+    --colorSecondary: #3c805b;
+}
+
+.list {
+    list-style: none;
+    font-size: 0;
+    text-align: center;
+}
+
+.listItem {
+    position: relative;
+    display: inline-block;
+    font-size: 16px;
+    background-color: var(--colorPrimary);
+    border: 1px solid var(--colorSecondary);
+    color: white;
+}
+
+.subListItem {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.subListDeep {
+    position: absolute;
+    display: none;
+    padding: 0;
+    top: 0%;
+    left: 100%;
+    right: 0;
+    background-color: var(--colorPrimary);
+}
+
+.listItemDeep {
+    display: inline-block;
+    background-color: var(--colorPrimary);
+    border: 1px solid var(--colorSecondary);
+    font-size: 16px;
+    color: white;
+}
+
+.subList {
+    position: absolute;
+    display: none;
+    background-color: var(--colorPrimary);
+    padding: 0;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.listItem:hover {
+    background-color: var(--colorSecondary);
+}
+
+.subListItem:hover {
+    background-color: var(--colorSecondary);
+}
+
+.listItemDeep:hover {
+    background-color: var(--colorSecondary);
+}
+
+.listItem:hover>.subList {
+    display: block;
+}
+
+.subListItem:hover>.subListDeep {
+    display: block;
+}
