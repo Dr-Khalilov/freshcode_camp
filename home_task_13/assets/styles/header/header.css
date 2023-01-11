@@ -1,0 +1,32 @@
+.mobile-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px 17px 5px;
+}
+
+.content-logo {
+    padding-left: 50px;
+}
+
+.logo-link {
+    max-width: 100%;
+    width: 600px;
+}
+
+.logo {
+    width: inherit;
+    object-fit: contain;
+    object-position: center;
+}
+
+.menu-btn {
+    margin: 70px 140px;
+    width: 40px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 100px;
+    margin-left: 14px;
+}
