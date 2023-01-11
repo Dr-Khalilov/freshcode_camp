@@ -1,0 +1,21 @@
+.about-me-screen {
+    padding: 50px 0;
+}
+
+.about-me-heading-margins {
+    margin-bottom: 25px;
+}
+
+.about-me-wrapper {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .about-me-heading-margins {
+        margin-bottom: 50px;
+    }
+
+    .about-me-screen {
+        padding: 110px 0;
+    }
+}
