@@ -1,0 +1,7 @@
+# IDE dependencies
+/.vscode/
+/.idea/
+# All hidden files ignore
+.*
+#Except
+!.gitignore
