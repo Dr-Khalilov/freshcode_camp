@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.user-card_1 {
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    margin-left: 40px;
+    padding: 35px 35px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(252, 176, 69, 1) 0%, rgba(253, 29, 86, 1) 46%);
+}
+
+.card-header {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.money {
+    margin-bottom: 1.7em;
+    font-size: 1.5em;
+}
+
+.stat-numbers {
+    margin-bottom: 1.7em;
+    font-size: 1.5em;
+}
+
+.user-card_1::before,
+.user-card_1::after {
+    --circle-size: 240px;
+    content: "";
+    display: block;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.user-card_1::before {
+    top: -110px;
+    right: -120px;
+}
+
+.user-card_1::after {
+    bottom: -110px;
+    right: -60px;
+}
+
+.user-card_2 {
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 35px 35px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(60, 155, 200, 1) 100%, rgba(253, 29, 86, 1) 100%);
+    ;
+}
+
+.user-card_2::before,
+.user-card_2::after {
+    --circle-size: 240px;
+    content: "";
+    display: block;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.user-card_2::before {
+    top: -110px;
+    right: -120px;
+}
+
+.user-card_2::after {
+    bottom: -110px;
+    right: -60px;
+}
+
+.user-card_3 {
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+
+    padding: 35px 35px;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, rgba(29, 253, 160, 1) 0%, rgba(60, 200, 187, 1) 100%, rgba(131, 58, 180, 1) 100%);
+    ;
+}
+
+.user-card_3::before,
+.user-card_3::after {
+    --circle-size: 240px;
+    content: "";
+    display: block;
+    width: var(--circle-size);
+    height: var(--circle-size);
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.user-card_3::before {
+    top: -110px;
+    right: -120px;
+}
+
+.user-card_3::after {
+    bottom: -110px;
+    right: -60px;
+}
